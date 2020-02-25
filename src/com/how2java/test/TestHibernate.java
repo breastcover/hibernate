@@ -30,7 +30,7 @@ public class TestHibernate {
 
         s.getTransaction().commit();
         s.close();
-        sf.close();
+        sf.close();;
     }
 
 }
