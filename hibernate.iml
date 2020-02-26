@@ -4,7 +4,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="com:how2java:pojo:hibernate.cfg.xml" />
+          <unit-entry name="com:how2java:pojo:hibernate.cfg.xml" value="7f473909-4307-4cf1-b2f4-46412be4b125" />
         </datasource-map>
         <naming-strategy-map />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/com/how2java/pojo/hibernate.cfg.xml" />
@@ -32,6 +32,15 @@
       <library>
         <CLASSES>
           <root url="jar://E:/文件/lombok-1.16.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/文件/jar/mysql-connector-java-5.0.8-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
